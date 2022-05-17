@@ -74,12 +74,13 @@ HashMap{get(), getNode()}
 Скачайте и установите утилиту [VisualVM](https://visualvm.github.io/download.html).  
 Откройте её и обратите внимание на раздел `Applications -> Local`
 
-![visualVM-applications-local](C:\Users\1\IdeaProjects\UnderstandingJVM\img\visualVM-applications-local.png)
+<img src="./img/visualVM-applications-local.png" alt="JVM">
+
 
 Запульте и запустите проект [отсюда](https://github.com/Arsennikum/jvm-visualvm-experience).  
 После запуска сразу же (у вас будет на это 30 сек, см. код) щелкните дважды по появившейся запущенной нашей программе в разделе `Local` (о котором упоминалось выше)  
 Перейдите на вкладку `Monitor` и можете наблюдать метрики программы в реальном времени. Присмотритесь к разделам `Heap`, `Metaspace`   
-![visualVM-heap-metaspace](C:\Users\1\IdeaProjects\UnderstandingJVM\img\visualVM-heap-metaspace.png)
+<img src="./img/visualVM-heap-metaspace.png" alt="JVM">
 
 Когда программа завершится, изучите вывод консоли и код программы (в код можете не погружаться, главное - метод main). Соотнесите с графиками в разделах `Heap`, `Metaspace` и `Classes`
 
@@ -124,13 +125,10 @@ HashMap{get(), getNode()}
 >12 - 17:51:33.893857: created
 
 ## metaspace
-
-![visualVM-heap-metaspace](C:\Users\1\IdeaProjects\UnderstandingJVM\img\metaspace.jpg)
+<img src="./img/metaspace.jpg" alt="JVM">
 
 ## heap
-
-![visualVM-heap-metaspace](C:\Users\1\IdeaProjects\UnderstandingJVM\img\heap.jpg)
+<img src="./img/heap.jpg" alt="JVM">
 
 ## class
-
-![visualVM-class](C:\Users\1\IdeaProjects\UnderstandingJVM\img\class.jpg)
+<img src="./img/class.jpg" alt="JVM">
