@@ -52,59 +52,15 @@ public class JvmComprehension {
 вот неполный список классов и методов которые использет строка:
 
 ```java 
-PrintStream
-println
-print
-write
-ensureOpen
-
-Writer
-write
-
-BufferedWriter
-write
-ensureOpen
-write
-min
-write
-
-String
-getChars
-checkBoundsBeginEnd
-getChars
-checkBoundsOffCount
-getChars
-isLatin1
-getChars
-
-StringLatin1
-getChars
-inflate
-
-String
-getChars
-
-BufferedWriter
-write
-flushBuffer
-ensureOpen
-flushBuffer
-
-OutputStreamWriter
-write
-
-StreamEncoder
-write
-ensureOpen
-write
-implWrite
-
-InstrumentationImpl
-transform
-transformer
-transform
-
-HashMap
-get
-getNode
+PrintStream{println(), print(), write(), ensureOpen()}
+Writer{write()};
+BufferedWriter{write(),ensureOpen(), write() min(), write()};
+String{getChars(), checkBoundsBeginEnd(), getChars(), checkBoundsOffCount, getChars(), isLatin1(),getChars()};
+StringLatin1{getChars() ,inflate()}
+String{getChars()}
+BufferedWriter{write(), flushBuffer(), ensureOpen(), flushBuffer()}
+OutputStreamWriter{write()}
+StreamEncoder{write(), ensureOpen(),write(), implWrite()}
+InstrumentationImpl{transform(), transformer(), transform()}
+HashMap{get(), getNode()}
 ```
