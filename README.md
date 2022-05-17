@@ -75,7 +75,7 @@ HashMap{get(), getNode()}
 Откройте её и обратите внимание на раздел `Applications -> Local`
 
 <img src="./img/visualVM-applications-local.png" alt="JVM">
-
+<графическое представление памяти при выполнении программы> <img src="./img/OP.jpg" alt="JVM">
 
 Запульте и запустите проект [отсюда](https://github.com/Arsennikum/jvm-visualvm-experience).  
 После запуска сразу же (у вас будет на это 30 сек, см. код) щелкните дважды по появившейся запущенной нашей программе в разделе `Local` (о котором упоминалось выше)  
